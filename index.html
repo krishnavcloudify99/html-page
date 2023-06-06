@@ -9,7 +9,7 @@
 <p id="demo"></p>
 
 <script>
-document.getElementById("demo").innerHTML = window.parent.location;
+document.getElementById("demo").innerHTML = parent.document.getElementById(window.frameElement.id);
 </script>
 
 </body>
